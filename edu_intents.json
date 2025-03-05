@@ -1,0 +1,180 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! Ready to learn?", "Hey! What subject do you need help with?"]
+      },
+      {
+        "tag": "farewell",
+        "patterns": ["Bye", "See you", "Goodbye", "Take care"],
+        "responses": ["Goodbye! Keep learning!", "See you soon!", "Take care and study well!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks", "I appreciate it"],
+        "responses": ["You're welcome!", "Glad to help!", "Anytime!"]
+      },
+      
+      {
+        "tag": "math_help",
+        "patterns": ["Solve 2+2", "What is 5 times 3?", "Calculate 12 divided by 4"],
+        "responses": ["Let me calculate that for you!", "I can solve that: "]
+      },
+      {
+        "tag": "algebra",
+        "patterns": ["Solve for x in 2x + 3 = 7", "What is the quadratic formula?", "Explain algebra"],
+        "responses": ["The quadratic formula is x = (-b ± √(b²-4ac)) / 2a.", "Algebra is about using symbols to represent numbers in equations.", "To solve for x, isolate the variable on one side."]
+      },
+      {
+        "tag": "geometry",
+        "patterns": ["What is the area of a circle?", "Explain Pythagorean theorem", "How do you calculate volume?"],
+        "responses": ["The area of a circle is πr².", "The Pythagorean theorem states a² + b² = c².", "Volume depends on shape: for a cube, it's side³."]
+      },
+      {
+        "tag": "calculus",
+        "patterns": ["What is a derivative?", "Explain integration", "How do you differentiate x^2?"],
+        "responses": ["A derivative represents the rate of change.", "Integration finds the area under a curve.", "The derivative of x² is 2x."]
+      },
+  
+      {
+        "tag": "physics",
+        "patterns": ["Explain Newton's laws", "What is gravity?", "Tell me about motion"],
+        "responses": ["Newton's laws describe how objects move under forces.", "Gravity is the force pulling objects toward Earth.", "Motion involves speed, velocity, and acceleration."]
+      },
+      {
+        "tag": "chemistry",
+        "patterns": ["What is an atom?", "Explain the periodic table", "What is H2O?"],
+        "responses": ["An atom is the basic unit of matter.", "The periodic table organizes elements by properties.", "H2O is the chemical formula for water."]
+      },
+      {
+        "tag": "biology",
+        "patterns": ["What is photosynthesis?", "Explain DNA", "What are cells?"],
+        "responses": ["Photosynthesis allows plants to make food using sunlight.", "DNA carries genetic information.", "Cells are the basic building blocks of life."]
+      },
+      {
+        "tag": "history",
+        "patterns": ["Who was Napoleon?", "Tell me about World War II", "What happened in 1776?"],
+        "responses": ["Napoleon was a French military leader.", "WWII was a global conflict from 1939-1945.", "1776 was the year of U.S. independence."]
+      },
+      {
+        "tag": "geography",
+        "patterns": ["What is the largest country?", "Where is Mount Everest?", "How many continents are there?"],
+        "responses": ["Russia is the largest country by land area.", "Mount Everest is in Nepal.", "There are seven continents on Earth."]
+      },
+      {
+        "tag": "programming",
+        "patterns": ["How do I write a loop in Python?", "Explain recursion", "What is an array?"],
+        "responses": ["In Python, a loop is written as: for i in range(n).", "Recursion is a function calling itself.", "An array is a collection of elements."]
+      },
+      {
+        "tag": "web_development",
+        "patterns": ["What is HTML?", "How does JavaScript work?", "What is CSS?"],
+        "responses": ["HTML is used to structure web pages.", "JavaScript makes web pages interactive.", "CSS styles web pages with colors and layouts."]
+      },
+      {
+        "tag": "ai_ml",
+        "patterns": ["What is AI?", "Explain machine learning", "How does deep learning work?"],
+        "responses": ["AI simulates human intelligence using computers.", "Machine learning allows computers to learn from data.", "Deep learning uses neural networks to recognize patterns."]
+      },
+  
+      {
+        "tag": "language_learning",
+        "patterns": ["How do you say 'hello' in Spanish?", "Translate 'good night' to French"],
+        "responses": ["In Spanish, 'hello' is 'Hola'!", "In French, 'good night' is 'Bonne nuit'."]
+      },
+      {
+        "tag": "grammar",
+        "patterns": ["What is a noun?", "Explain verbs", "What are adjectives?"],
+        "responses": ["A noun is a person, place, or thing.", "A verb is an action word.", "Adjectives describe nouns."]
+      },
+  
+      {
+        "tag": "study_tips",
+        "patterns": ["How can I focus while studying?", "Tips for effective learning?", "Best way to take notes?"],
+        "responses": ["Try the Pomodoro technique for better focus.", "Use active recall and practice tests.", "Summarize key points and use color coding."]
+      },
+      {
+        "tag": "exam_prep",
+        "patterns": ["How do I prepare for exams?", "Best way to revise?", "How to avoid stress during exams?"],
+        "responses": ["Make a study schedule and stick to it.", "Use flashcards and teach concepts to others.", "Take deep breaths and get enough sleep."]
+      },
+  
+      {
+        "tag": "career_advice",
+        "patterns": ["What careers are best for engineers?", "How to become a doctor?", "Best jobs in AI?"],
+        "responses": ["Engineers can work in software, mechanical, or electrical fields.", "To become a doctor, study medicine and complete a residency.", "AI jobs include machine learning engineer and data scientist."]
+      },
+      {
+        "tag": "college_selection",
+        "patterns": ["Which college is best for engineering?", "What are good universities for AI?", "How do I choose a university?"],
+        "responses": ["Top engineering colleges include MIT, Stanford, and IITs.", "Great AI universities are Carnegie Mellon, Stanford, and Berkeley.", "Consider faculty, curriculum, and job opportunities."]
+      },
+      {
+        "tag": "fun_facts",
+        "patterns": ["Tell me a fun fact", "Interesting science fact", "Give me a random fact"],
+        "responses": ["Did you know honey never spoils?", "Water can boil and freeze at the same time!", "A day on Venus is longer than a year on Venus."]
+      },
+      {
+        "tag": "motivation",
+        "patterns": ["I feel demotivated", "Give me some inspiration", "How to stay motivated?"],
+        "responses": ["Believe in yourself! Hard work pays off.", "Success is a journey, not a destination.", "Keep pushing forward, even on tough days."]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hello! How can I help you?", "Hi there! What do you need help with?", "Hey! Ready to learn something new?"]
+      },
+      {
+        "tag": "farewell",
+        "patterns": ["Bye", "See you", "Goodbye", "Take care"],
+        "responses": ["Goodbye! Have a great day!", "See you next time!", "Take care and keep learning!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks", "I appreciate it"],
+        "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+      },
+      {
+        "tag": "math_help",
+        "patterns": ["Solve 2+2", "What is 5 times 3?", "Calculate 12 divided by 4"],
+        "responses": ["Let me calculate that for you!", "I can solve that: "]
+      },
+      {
+        "tag": "science_explanation",
+        "patterns": ["Explain Newton's laws", "What is gravity?", "Tell me about photosynthesis"],
+        "responses": ["Sure! Newton's laws of motion describe how objects move under the influence of forces.", "Gravity is the force that attracts two bodies toward each other.", "Photosynthesis is the process where plants use sunlight to create energy."]
+      },
+      {
+        "tag": "history_help",
+        "patterns": ["Who was Napoleon?", "Tell me about World War II", "What happened in 1776?"],
+        "responses": ["Napoleon Bonaparte was a French military leader who became Emperor.", "World War II was a global conflict that lasted from 1939 to 1945.", "1776 was the year the United States declared independence from Britain."]
+      },
+      {
+        "tag": "language_learning",
+        "patterns": ["How do you say 'hello' in Spanish?", "Translate 'good night' to French"],
+        "responses": ["In Spanish, 'hello' is 'Hola'!", "In French, 'good night' is 'Bonne nuit'."]
+      },
+      {
+        "tag": "coding_help",
+        "patterns": ["How do I write a loop in Python?", "Explain recursion", "What is an array?"],
+        "responses": ["In Python, you can write a loop using 'for' or 'while'.", "Recursion is a function calling itself until a base condition is met.", "An array is a collection of elements stored at contiguous memory locations."]
+      },
+      {
+        "tag": "exam_tips",
+        "patterns": ["How can I prepare for exams?", "Tips for studying effectively?", "Best way to revise?"],
+        "responses": ["Create a study schedule and stick to it!", "Practice active recall and spaced repetition.", "Summarize your notes and teach others to reinforce learning."]
+      },
+      {
+        "tag": "homework_help",
+        "patterns": ["Can you help me with my homework?", "Explain this problem", "How do I solve this?"],
+        "responses": ["Sure! Tell me more about your homework problem.", "I'd be happy to explain!", "Let's work through it together."]
+      },
+      {
+        "tag": "college_advice",
+        "patterns": ["Which college is best for engineering?", "What are good universities for AI?", "How do I choose a university?"],
+        "responses": ["The best college depends on your location, budget, and preferences.", "Top AI universities include Stanford, MIT, and Carnegie Mellon.", "Consider faculty, curriculum, campus life, and career opportunities."]
+      }
+    ]
+  }
+  
